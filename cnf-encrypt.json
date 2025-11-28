@@ -1,0 +1,27 @@
+[
+    {
+        "mode": "encrypt",
+        "path": "../",
+        "output": "../git-commander-enc",
+        "override": true,
+        "exclude": [
+            ".gitignore",
+            ".git",
+            "instal",
+            "node_modules",
+            "config-decrypt.json",
+            "config-encrypt.json",
+            "git-commander-enc",
+            "batch-encdec.js",
+            "cnf-decrypt.json",
+            "cnf-encrypt.json"
+        ],
+        "copy": [
+            ".gitignore",
+            "batch-encdec.js",
+            "cnf-decrypt.json",
+            "cnf-encrypt.json"
+        ],
+        "build": true
+    }
+]
